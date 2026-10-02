@@ -1,0 +1,25 @@
+# Python & Virtual Environments
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Testing & Linting
+.pytest_cache/
+.ruff_cache/
+
+# Recomputed artifacts
+results/
+
+# Large Datasets & Archives (>100MB)
+data/raw/recordings.zip
+data/raw/wav.zip
+data/processed/recordings/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Nested repos
+auditory-subspace/

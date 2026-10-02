@@ -1,0 +1,23 @@
+project:
+  name: auditory-subspace
+  paper_doi: 10.1038/s41593-026-02216-0
+  zenodo_record: 18331549
+
+filters:
+  r_test_min: 0.15
+  depth_max_um: 800
+
+published_benchmarks:
+  responsive_units_a1_peg: 2337
+  total_units_a1_peg: 2874
+  ln_median: 0.416
+  cnn_median: 0.600
+  ss_median_caption: 0.584
+  ss_median_text: 0.585
+  cnn_variance_explained: 0.954
+  ssi_within_site: 0.55
+  ssi_between_site: 0.35
+  ssrf_area_regular: 0.076
+  ssrf_area_narrow: 0.115
+  ssrf_sites_count: 39
+  a1_pairs_count: 42140
